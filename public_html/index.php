@@ -11,7 +11,11 @@
 		<!-- Font Awesome -->
 		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
 
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i|Roboto:300,400,400i,700" rel="stylesheet">
+
 		<!-- load our custom CSS -->
+		<link rel="stylesheet" href="css/bootstrap-4.0.0-alpha.2-utilities.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -38,7 +42,7 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<header>
-				<nav class="navbar navbar-inverse navbar-fixed-top">
+				<nav class="navbar navbar-inverse navbar-fixed-top m-b-0">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
@@ -65,7 +69,7 @@
 			</header>
 
 			<!-- begin welcome area-->
-			<section id="welcome">
+			<section id="welcome" class="p-b-4">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -79,7 +83,7 @@
 			</section>
 
 			<!-- begin page leader -->
-			<section id="page-leader">
+			<section id="page-leader" class="p-y-4">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -112,7 +116,7 @@
 		</div>
 
 		<!-- begin footer -->
-		<footer>
+		<footer class="p-y-4">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-6 copyright">

@@ -1,3 +1,19 @@
+/**********************************************
+* smoothState.js Example Project CSS
+* @author rlewis37@cnm.edu
+**********************************************/
+
+/**********************************************
+* Base Styles
+**********************************************/
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+/**********************************************
+* Utility Styles
+**********************************************/
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -16,3 +32,39 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
+
+/**********************************************
+* Animation
+**********************************************/
+
+/**********************************************
+* Welcome Section Styles
+**********************************************/
+#welcome {
+	padding-top: 70px;
+}
+
+/**********************************************
+* Page Lead Styles
+**********************************************/
+#page-leader {
+	background-color: gold;
+}
+
+/**********************************************
+* Content Styles
+**********************************************/
+main {
+	background-color: #ddd;
+	padding: 8rem 0 10rem 0;
+}
+/**********************************************
+* Footer Styles
+**********************************************/
+footer {
+	background-color: black;
+}
+
+/*
+sudo -u foo -H phpunit --coverage-html coverage
+*/
