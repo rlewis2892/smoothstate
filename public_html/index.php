@@ -38,14 +38,91 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<header>
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Foo Site</a>
+						</div>
 
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+								<li><a href="#">Link</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
 			</header>
-			<main>
 
+			<!-- begin welcome area-->
+			<section id="welcome">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="jumbotron text-center">
+								<h1>Welcome Text Here</h1>
+								<p class="lead">byline here....</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- begin page leader -->
+			<section id="page-leader">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>This is a Page Title</h1>
+							<p class="lead">Business plan ramen hypotheses hackathon holy grail series A financing partnership assets incubator. Hypotheses A/B testing iPhone innovator...</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- begin main content -->
+			<main>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<h3>Heading 3</h3>
+							<p>Startup equity incubator series A financing gen-z MVP freemium buzz vesting period network effects iPad. Early adopters seed money monetization partner network marketing angel investor deployment MVP A/B testing creative. Entrepreneur buzz seed money. Founders iteration virality business-to-business startup venture influencer ecosystem marketing.</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<h3>Heading 3</h3>
+							<p>Startup equity incubator series A financing gen-z MVP freemium buzz vesting period network effects iPad. Early adopters seed money monetization partner network marketing angel investor deployment MVP A/B testing creative. Entrepreneur buzz seed money. Founders iteration virality business-to-business startup venture influencer ecosystem marketing.</p>
+						</div>
+						<div class="col-md-4 col-sm-12 center-block">
+							<h3>Heading 3</h3>
+							<p>Startup equity incubator series A financing gen-z MVP freemium buzz vesting period network effects iPad. Early adopters seed money monetization partner network marketing angel investor deployment MVP A/B testing creative. Entrepreneur buzz seed money. Founders iteration virality business-to-business startup venture influencer ecosystem marketing.</p>
+						</div>
+					</div>
+				</div>
 			</main>
 		</div>
+
+		<!-- begin footer -->
 		<footer>
-			this is a footer
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6 copyright">
+						this is a footer :P
+					</div>
+					<div class="col-sm-6 social-icons">
+						social icons go here
+					</div>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
