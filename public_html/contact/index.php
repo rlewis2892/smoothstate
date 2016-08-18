@@ -1,7 +1,4 @@
 <?php
-/*grab current directory*/
-$CURRENT_DIR = __DIR__;
-
 /*set page title here*/
 $PAGE_TITLE = "SmoothState.js Contact";
 
@@ -9,7 +6,7 @@ $PAGE_TITLE = "SmoothState.js Contact";
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 
-	<body class="sfooter content-layout">
+	<body class="sfooter content-layout contact-page">
 		<div class="sfooter-content">
 
 			<!-- insert header -->

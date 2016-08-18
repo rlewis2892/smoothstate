@@ -20,7 +20,7 @@ require_once("php/partials/head-utils.php");
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
-							<div class="jumbotron text-center">
+							<div class="jumbotron text-center animated fadeIn">
 								<h1>Welcome Text Here</h1>
 								<p class="lead">byline here....</p>
 							</div>
@@ -30,7 +30,7 @@ require_once("php/partials/head-utils.php");
 			</section>
 
 			<!-- begin page leader -->
-			<section id="page-leader" class="p-y-4">
+			<section id="page-leader" class="p-y-4 animated slideInRight">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -42,7 +42,7 @@ require_once("php/partials/head-utils.php");
 			</section>
 
 			<!-- begin main content -->
-			<main>
+			<main id="main-content" class="animated slideInUp">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 m-b-4">
@@ -60,7 +60,7 @@ require_once("php/partials/head-utils.php");
 					</div>
 				</div>
 			</main>
-		</div>
+		</div><!--/.sfooter-content-->
 
 		<!-- begin footer -->
 		<?php require_once("php/partials/footer.php");?>

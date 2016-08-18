@@ -1,7 +1,4 @@
 <?php
-/*grab current directory*/
-$CURRENT_DIR = __DIR__;
-
 /*set page title here*/
 $PAGE_TITLE = "SmoothState.js About";
 
@@ -9,14 +6,14 @@ $PAGE_TITLE = "SmoothState.js About";
 require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 ?>
 
-	<body class="sfooter content-layout">
+	<body class="sfooter content-layout about-page">
 		<div class="sfooter-content">
 
 			<!-- insert header -->
 			<?php require_once(dirname(__DIR__) . "/php/partials/header.php");?>
 
 			<!-- begin page leader -->
-			<section id="page-leader" class="p-y-4">
+			<section id="page-leader" class="animated slideInRight p-y-4">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -28,7 +25,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			</section>
 
 			<!-- begin main content -->
-			<main>
+			<main id="main-content" class="animated slideInUp">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 m-b-4">

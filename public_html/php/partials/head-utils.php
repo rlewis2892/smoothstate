@@ -1,18 +1,3 @@
-<?php
-/**
- * Get the relative path.
- * @see https://raw.githubusercontent.com/kingscreations/farm-to-you/master/php/lib/_header.php FarmToYou Header
- **/
-
-// include the appropriate number of dirname() functions
-// on line 8 to correctly resolve your directory's path
-require_once(dirname(__DIR__, 2) . "/root-path.php");
-$CURRENT_DEPTH = substr_count($CURRENT_DIR, "/");
-$ROOT_DEPTH = substr_count($ROOT_PATH, "/");
-$DEPTH_DIFFERENCE = $CURRENT_DEPTH - $ROOT_DEPTH;
-$PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -31,6 +16,9 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i|Roboto:300,400,400i,700" rel="stylesheet">
+
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
 
 		<!-- load our custom CSS -->
 		<link rel="stylesheet" href="css/bootstrap-4.0.0-alpha.2-utilities.css" type="text/css">
