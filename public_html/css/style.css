@@ -8,8 +8,14 @@
 **********************************************/
 body {
 	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	color: #000;
 }
 
+h1,
+.h1 {
+	font-family: 'Cormorant', "Times New Roman", Times, Serif;
+	font-size: 5rem;
+}
 /**********************************************
 * Utility Styles
 **********************************************/
@@ -38,11 +44,35 @@ body { width: 100%;}
 **********************************************/
 
 /**********************************************
+* Navbar Styles
+**********************************************/
+.navbar-inverse {
+	background: rgba(0,0,0,0.95);
+	border-color: transparent;
+}
+
+.navbar-brand {
+	font-family: 'Cormorant', "Times New Roman", Times, Serif;
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+/**********************************************
 * Welcome Section Styles
 **********************************************/
 #welcome {
 	padding-top: 12rem;
 	padding-bottom: 6rem;
+	background: url("../images/hyacinth-1403653_1920.jpg") center center;
+	background-attachment: fixed;
+}
+
+#welcome .jumbotron {
+	background: rgba(0,0,0,0.25);
+	color: white;
+}
+
+#welcome .jumbotron h1 {
+	text-shadow: 1px 1px 1px #000;
 }
 
 @media only screen and (min-width: 991px) {
@@ -60,6 +90,10 @@ body { width: 100%;}
 	background-color: gold;
 }
 
+.content-layout #page-leader {
+	margin-top: 50px;
+}
+
 /**********************************************
 * Content Styles
 **********************************************/
@@ -72,4 +106,5 @@ main {
 **********************************************/
 footer {
 	background-color: black;
+	color: #555;
 }
