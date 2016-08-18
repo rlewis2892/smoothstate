@@ -13,7 +13,7 @@ require_once(dirname(__DIR__) . "/php/partials/head-utils.php");
 			<?php require_once(dirname(__DIR__) . "/php/partials/header.php");?>
 
 			<!-- begin page leader -->
-			<section id="page-leader" class="animated slideInRight p-y-4">
+			<section id="page-leader" class="animated slideInDown p-y-4">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
