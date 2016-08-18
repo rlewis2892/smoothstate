@@ -5,6 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+		<!-- set the base url for relative links in navbar -->
+		<base href="https://bootcamp-coders.cnm.edu/~rlewis37/smoothstate/public_html/">
+
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -52,16 +55,16 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Foo Site</a>
+							<a class="navbar-brand" href="#">SmoothState.js Site</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
-								<li><a href="#">Link</a></li>
+								<li><a href="#">Home</a></li>
+								<li><a href="about">About</a></li>
+								<li><a href="portfolio">Portfolio</a></li>
+								<li><a href="contact">Contact</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -69,7 +72,7 @@
 			</header>
 
 			<!-- begin welcome area-->
-			<section id="welcome" class="p-b-4">
+			<section id="welcome">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-xs-12">
@@ -98,15 +101,15 @@
 			<main>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-4 col-sm-6 m-b-4">
 							<h3>Heading 3</h3>
 							<p>Startup equity incubator series A financing gen-z MVP freemium buzz vesting period network effects iPad. Early adopters seed money monetization partner network marketing angel investor deployment MVP A/B testing creative. Entrepreneur buzz seed money. Founders iteration virality business-to-business startup venture influencer ecosystem marketing.</p>
 						</div>
-						<div class="col-md-4 col-sm-6">
+						<div class="col-md-4 col-sm-6 m-b-4">
 							<h3>Heading 3</h3>
 							<p>Startup equity incubator series A financing gen-z MVP freemium buzz vesting period network effects iPad. Early adopters seed money monetization partner network marketing angel investor deployment MVP A/B testing creative. Entrepreneur buzz seed money. Founders iteration virality business-to-business startup venture influencer ecosystem marketing.</p>
 						</div>
-						<div class="col-md-4 col-sm-12 center-block">
+						<div class="col-md-4 col-sm-12 center-block m-b-4">
 							<h3>Heading 3</h3>
 							<p>Startup equity incubator series A financing gen-z MVP freemium buzz vesting period network effects iPad. Early adopters seed money monetization partner network marketing angel investor deployment MVP A/B testing creative. Entrepreneur buzz seed money. Founders iteration virality business-to-business startup venture influencer ecosystem marketing.</p>
 						</div>

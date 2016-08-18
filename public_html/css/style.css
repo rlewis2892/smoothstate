@@ -41,9 +41,18 @@ body { width: 100%;}
 * Welcome Section Styles
 **********************************************/
 #welcome {
-	padding-top: 70px;
+	padding-top: 12rem;
+	padding-bottom: 6rem;
 }
 
+@media only screen and (min-width: 991px) {
+	#welcome {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		padding: 0;
+	}
+}
 /**********************************************
 * Page Lead Styles
 **********************************************/
@@ -64,7 +73,3 @@ main {
 footer {
 	background-color: black;
 }
-
-/*
-sudo -u foo -H phpunit --coverage-html coverage
-*/
